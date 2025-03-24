@@ -227,6 +227,7 @@ void Widget::setupImageGrid()
     }
 }
 
+//Paints onto the Widget
 void Widget::paintEvent(QPaintEvent *evt)
 {
     QPainter painter(this);
